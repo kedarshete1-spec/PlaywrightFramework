@@ -1,0 +1,24 @@
+
+Git Hub work flow
+
+install Git --> create new Respository --> goto workpacse or project in VS --> open terminal and give this bellow commands 
+
+1. git init -- Git Initialize in project folder 
+
+2. git add file name/ test name -- to add the perticuler file/test into staging 
+ or
+ git add . (if we want to add all files on gitub then use git add.)
+
+3. git commit -m 'initial commit' -- this means our code chnages is get final 
+
+4. git branch -M main -- it means change the branch name (default was master and now we changed as main)
+
+5. git remote add origin https://github.com/kedarshete1-spec/PlaywrightFramework.git -- > enter 
+
+6. git push -u origin main  -- used to push the code on github repository. (origin means server)
+
+7. git push --force-with-lease origin main -- used to forcefully push the code on github when normal push method not works 
+
+8. git status -- working tree clean 
+
+9. git checkout -b is used for create new branch 

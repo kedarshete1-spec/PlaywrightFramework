@@ -22,3 +22,11 @@ install Git --> create new Respository --> goto workpacse or project in VS --> o
 8. git status -- working tree clean 
 
 9. git checkout -b is used for create new branch 
+
+10. git checkout main -- is used for change branch   
+
+11. mearg conflict -- if code changed by tow diffrent person at same line then github will get confused which code need to mearg so thats why error conflict will accures 
+
+solution : remove all arrows and unwanted code and save and then git add . --> git commit -m 'merge conflict reabes' --> git reabes  -continue 
+
+12. git clone - copy project from github to git local -----------------

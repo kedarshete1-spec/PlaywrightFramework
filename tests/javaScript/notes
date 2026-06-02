@@ -29,4 +29,6 @@ install Git --> create new Respository --> goto workpacse or project in VS --> o
 
 solution : remove all arrows and unwanted code and save and then git add . --> git commit -m 'merge conflict reabes' --> git reabes  -continue 
 
-12. git clone - copy project from github to git local -----------------
+12. git clone - copy project from github to git local 
+
+You are selected Bhushan with 22 LPA

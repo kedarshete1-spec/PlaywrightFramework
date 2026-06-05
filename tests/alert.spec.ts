@@ -44,7 +44,7 @@ test('Prompt Alert', async({page}) =>{
 
 });
 
-test.only('Modern Alert', async({page}) =>{
+test('Modern Alert', async({page}) =>{
 
     await page.goto('https://letcode.in/alert');
 
@@ -59,4 +59,14 @@ test.only('Modern Alert', async({page}) =>{
 
 }); 
 
+test.only('simple alert', async({page})=>{
 
+await page.goto('https://letcode.in/alert');
+page.on('dialog', async dialog =>{
+    console.log(dialog.message);
+    await dialog.accept();
+})
+
+await page.getByRole('button', {name: 'Simple Alert'}).click();
+
+})

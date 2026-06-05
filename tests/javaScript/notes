@@ -29,4 +29,21 @@ install Git --> create new Respository --> goto workpacse or project in VS --> o
 
 solution : remove all arrows and unwanted code and save and then git add . --> git commit -m 'merge conflict reabes' --> git reabes  -continue 
 
-12. git clone - copy project from github to git local -----------------
+12. git clone - copy project from github to git local 
+
+
+Questions asked in interview ---
+
+1. what is framework ? 
+2. what is the best things in playwright as per your opiniun ? 
+3. why you chose playwright as you was working on selenium ? 
+4. what is assertions and which assertions you used in your project ?
+5. How you used to manage data in your framework ?
+6. share your screen and write the code for how you fetch the data from excel ?
+7. Take a String and find a duplicate charecter with count ? { eg: "selenium" s=1, e=2,}
+8. open flipkart app and goto fashion tab and click and again navigate to jeans icon/image and show me all 'WROGN' brand jeans 
+9.  How we can do paralel Testing in playwright ?
+10. which report you used in your project ?
+11. if let say client want his own report formats or report so you will use it in your project ?
+12. Agile cermonies ?
+13. 

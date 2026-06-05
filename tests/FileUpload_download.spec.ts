@@ -23,10 +23,10 @@ test('Download_file', async ({page}) => {
 await download.saveAs('downloads/excel-download.xlsx');
 await page.waitForTimeout(5000); 
 
-const[download] = await Promise.all([
+const [download2] = await Promise.all([
     page.waitForEvent('download'),
     await page.getByRole('link', {name: 'Download Pdf'}).click(),
 
 ]);
-await download.saveAs('downloads/excel-download.xlsx');
+await download2.saveAs('downloads/pdf-download.pdf');
 })

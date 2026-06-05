@@ -27,8 +27,7 @@ await page.goto('https://letcode.in/test');
 });
 
 /*  
-Diksha Jambhulkar
-2:59 PM
+
 import {test, expect} from '@playwright/test';
 
 test('Handle Child Window', async({page, context}) =>{
@@ -80,13 +79,8 @@ test('Handle Frame', async({page, context}) =>{
 });
 
 
-/* await page.frameLocator('#firstFr')
-    .getByPlaceholder('Enter name').fill('Playwright Frame');
-    await page.waitForTimeout(5000);*/
+/* 
 
-bhushan patil
-3:00 PM
-import {test, expect} from '@playwright/test';
 
 
 test('File Uploads', async ({page}) => {
